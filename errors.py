@@ -1,3 +1,5 @@
+#thonny ide .... gives the step by step error detail its a website
+
 ############.  IndexError: list index out of range. #######################
 
 #print(len(states_of_america))
