@@ -1,4 +1,6 @@
 #thonny ide .... gives the step by step error detail its a website
+#app.diagram.net.....gives the flowchart diag
+
 
 ############.  IndexError: list index out of range. #######################
 
