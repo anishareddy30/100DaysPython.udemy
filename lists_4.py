@@ -18,5 +18,5 @@ print(states_of_india)
 print(len(states_of_india))
 
 
-# Index starts from 0 for the first element (from the beginning).
-# Index -1 is for the last element (from the end).
+""" Index starts from 0 for the first element (from the beginning).
+ Index -1 is for the last element (from the end) """

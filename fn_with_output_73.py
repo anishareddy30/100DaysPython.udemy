@@ -10,5 +10,18 @@ def function_name (first_name , last_name ):
     formated_name2 = (last_name.title())
     print(f"{formated_name} {formated_name2}")
 
-function_name ("MANaki" , "REDDy")    
+function_name ("MANaki" , "REDDy")  
+
+
+def fuction_1(text):
+    return text + text
+
+def fuction_2(text):
+    return text.title()
+
+output = fuction_1("hello")
+print(output)
+
+output2 = fuction_2(fuction_1("hello"))
+print(output2)
 
