@@ -10,7 +10,7 @@ print(x)
 
 def my_func():
     y = 10
-my_func    
+  
 
 # print(y) ❌ Error
 # Variables inside a function cannot be used outside.

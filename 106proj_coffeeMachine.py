@@ -30,8 +30,57 @@ resources = {
     "coffee": 100,
 }
 
-order = input("What would you like? (espresso/latte/cappuccino):")
+def if_resources_sufficient (order_ingredients) :
+    for item in order_ingredients:
+        if order_ingredients[items] > resources[item]:
+            print("there is not sufficint[item]")
+            return False
+        return True
+
+#process coins
+def process_coins():
+    print("enter the coin")
+    total = int(input("how many quarters?: ")) * 0.25
+    total += int(input("how many dimes?: ")) * 0.1
+    total += int(input("how many nickles?: ")) * 0.05
+    total += int(input("how many pennies?: ")) * 0.01
+    return total
+
+#Check transaction successful?
+def transaction_successful(money_recieved , drink_cost):
+    change = round(money_recieved - drink_cost)
+    if money_recieved > drink_cost:
+        print(f"here is your{change}")
+        global profit
+        profit += drink_cost
+        return True
+    else:
+        print("money is insufficient")  
+        return False  
 
 
-#print report
-report = (f"resources - order")
+#Make Coffee
+def make_coffee (order_ingredients , drink_name ):
+    for item in order_ingredients:
+        order_ingredients[item] -= resources[item]
+        print(f"here is your drink{drink_name} . enjoyyy !")
+
+
+while is_on :
+    choice = input("What would you like? (espresso/latte/cappuccino): ")
+    if choice == False:
+        is_on = False
+    elif choice == "report" :
+        print(f"water : {resources[water]}ml")
+        print(f"Milk: {resources['milk']}ml")
+        print(f"Coffee: {resources['coffee']}g")
+        print(f"Money: ${profit}")
+    else:
+        
+
+
+
+
+
+
+

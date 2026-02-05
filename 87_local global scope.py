@@ -9,10 +9,15 @@ def my_function():
 
 my_function()    
 
+
+
+
 """Global Scope (Python)
 Meaning
 
 A global variable is created outside all functions and can be used anywhere in the program."""
+
+
 
 y = 20
 def my_function():
